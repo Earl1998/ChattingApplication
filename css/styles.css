@@ -131,7 +131,6 @@ button:disabled {
 }
 
 
-
 .compose {
     display: flex;
     flex-shrink: 0;
@@ -155,6 +154,26 @@ button:disabled {
 
 .compose button {
     font-size: 14px;
+}
+
+.room-title {
+    font-weight: 400;
+    font-size: 22px;
+    background: #2c2f3a;
+    padding: 24px;   
+}
+
+.list-title {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 4px;
+    padding: 12px 24px 0 24px;
+}
+
+.users {
+    list-style-type: none;
+    font-weight: 300;
+    padding: 12px 24px 0 24px;
 }
 
 
